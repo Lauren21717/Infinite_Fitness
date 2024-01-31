@@ -54,6 +54,11 @@
     - Join Now Page Wireframe - [View](#)
 
 ## Technologies Used
+
+- ### Languages Used
+    - HTML5
+    - CSS3
+
 - ### Frameworks, Libraries & Programs Used
     1. [Balsamiq](https://balsamiq.com/)
         - Wireframes for the design process were crafted using Balsamiq.
@@ -72,9 +77,14 @@
     8. [Hover.css](https://ianlunn.github.io/Hover/)
        - Hover.css was applied to the icons in the nav bar and the footer, introducing a float transition effect when hovered over.
 
-- ### Languages Used
-    - HTML5
-    - CSS3
+- ### Bugs Discovered
+    - 1. 
 
-- ### Frameworks, Libraries & Programs Used
-   
+- ## Credit
+    - ###  Code
+    - ### Content
+    - ### Media
+
+- ## Deployment
+
+- ### How to run this project locally
