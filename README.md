@@ -48,10 +48,14 @@
    - #### Video
 
 - ### Wireframe
-    - Home Page Wireframe - [View](#)
-    - About Page Wireframe - [View](#)
-    - Class Page Wireframe - [View](#)
-    - Join Now Page Wireframe - [View](#)
+    - Home Page Wireframe 
+    ![home](home.png)
+    - About Page Wireframe 
+    ![about](about.png)
+    - Class Page Wireframe 
+    ![class](class.png)
+    - Join Now Page Wireframe 
+    ![join](join.png)
 
 ## Technologies Used
 
