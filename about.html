@@ -16,65 +16,43 @@
 </head>
 
 <body>
-    <article class="container">
-        <!-- Callout -->
-        <section class="callout">
-        </section>
-        <!-- /.callout -->
-        <hr>
+    <!--Nav-->
+    <!--credit: code foe nav bar taken from https://getbootstrap.com/docs/5.3/components/navbar/ and edit slightly to fit project needs -->
+    <nav class="navbar fixed-top navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Infinite Fitness</a>
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Infinite Fitness</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item  mr-2">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Class</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Join Now</a>
+                        </li>
 
-        <!-- Features -->
-        <section class="features">
-            <div class="feature">
-                <h3>OPEN 24/7</h3>
-                <p>We are open 24 hours every day, providing you the flexibility to exercise at any time that suits your schedule.</p>
-            </div>
-            <div class="feature">
-                <h3>NO CONTRACT</h3>
-                <p>Our membership plans have no contractual commitments, allowing you the freedom to cancel at any time.</p>
-            </div>
-            <div class="feature">
-                <h3>QUALITY EQUIPMENT</h3>
-                <p>We offer a diverse range of high-quality fitness equipment to cater to various workout preferences and goals.
-</p>
-            </div>
-        </section>
-        <!-- /.features -->
-        <hr>
+                    </ul>
 
-        <!-- Members-->
-        <section class="members">
-            <h2 class="text-uppercase">Our Members</h2>
-            <div class="member">
-                <p></p>
-                <p></p>
+                </div>
             </div>
-            <div class="member">
-                <p></p>
-                <p></p>
-            </div>
-            <div class="member">
-                <p></p>
-                <p></p>
-            </div>
-            <div class="member">
-                <p></p>
-                <p></p>
-            </div>
-        </section>
-        <!-- /.members -->
-        <hr>
-
-        <!-- map -->
-        <section class="map">
-            <h3>Location</h3>
-            <p></p>
-        </section>
-        <!-- /.map -->
-
-    </article>
-    <hr>
-
+        </div>
+    </nav>
+    <!--/.Nav-->
 
 </body>
 

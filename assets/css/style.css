@@ -1,2 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Exo+2:wght@100;200;300;400;500;600;700;800&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Exo+2:wght@100;200;300;400;500;600;700;800&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /*min-height: 100vh;
+    background: url('assets/images/background.jpeg') rgba(0,0,0,0.3);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;*/
+
+}
+
+/*---------------------------------------------Text--*/
+.general-sub {
+  font-family: 'Archivo Black', sans-serif;
+  color: #F9F9F9;
+}
+
+.navbar-brand,
+.footer-band {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 1.5em;
+
+}
+
+
+/*---------------------------------------------Nav--*/
+
+.navbar {
+  background: transparent;
+  height: 90px;
+}
+
+
+.nav-link {
+  color: #C0C0C0;
+  font-weight: 600;
+  position: relative;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #000000;
+}
+
+@media (min-width: 900px) {
+  .nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    width: 0;
+    height: 2px;
+    background-color: #EE4328;
+    visibility: hidden;
+    transition: 0.35s ease-in-out;
+    -moz-transition: 0.35s ease-in-out;
+    -webkit-transition: 0.35s ease-in-out;
+    -o-transition: 0.35s ease-in-out;
+  }
+
+  .nav-link:hover::before,
+  .nav-link.active:before {
+    width: 90%;
+    visibility: visible;
+  }
+}
+
+/*---------------------------------------------Footer--*/
+
+footer {
+  background-color: #3c3b3b;
+  color: #F9F9F9;
+  min-height: 60px;
+  margin: 0%;
+  position: absolute;
+}
+
+.footer-band {
+  text-decoration: none;
+  margin: 20px;
+  position: relative;
+  top: 50px;
+}
+
+.social-links {
+  padding: 20px;
+}
+
+.social-links li a i {
+  width: 40px;
+  height: 40px;
+  padding: 20px 0;
+  border-radius: 50%;
+  font-size: 25px;
+  line-height: 3px;
+  text-align: center;
+  color: #F9F9F9;
+  background-color: #C0C0C0;
+  transition: 0.35s ease-in-out;
+  -moz-transition: 0.35s ease-in-out;
+  -webkit-transition: 0.35s ease-in-out;
+  -o-transition: 0.35s ease-in-out;
+  
+}
+
+.social-links li a i:hover {
+  background: #EE4328;
+  visibility: visible;
+}
+
+
