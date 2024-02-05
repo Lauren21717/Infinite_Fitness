@@ -21,7 +21,7 @@ body {
 }
 
 .navbar-brand,
-.footer-band {
+{
   font-family: 'Archivo Black', sans-serif;
   font-size: 1.5em;
 
@@ -70,7 +70,17 @@ body {
   }
 }
 
+/*---------------------------------------------Features--*/
+.feature h3,
+.feature p,
+.feature i {
+  display: block;
+  text-align: center;
+}
+
 /*---------------------------------------------Footer--*/
+
+footer css
 
 footer {
   background-color: #3c3b3b;
@@ -90,6 +100,7 @@ footer {
 .social-links {
   padding: 20px;
 }
+
 
 .social-links li a i {
   width: 40px;
@@ -112,5 +123,3 @@ footer {
   background: #EE4328;
   visibility: visible;
 }
-
-
