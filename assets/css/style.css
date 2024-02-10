@@ -6,12 +6,8 @@
 }
 
 body {
-  /*min-height: 100vh;
-    background: url('assets/images/background.jpeg') rgba(0,0,0,0.3);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;*/
-
+  font-family: 'Exo 2', sans-serif;
+  background-color: rgba(232, 245, 133, 0.1);
 }
 
 /*---------------------------------------------Text--*/
@@ -20,7 +16,7 @@ body {
   color: #F9F9F9;
 }
 
-.navbar-brand,
+.navbar-brand
 {
   font-family: 'Archivo Black', sans-serif;
   font-size: 1.5em;
@@ -30,9 +26,19 @@ body {
 
 /*---------------------------------------------Nav--*/
 
+/* .navalert-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 0;
+  padding-right: 0;
+} */
+
 .navbar {
-  background: transparent;
   height: 90px;
+  /* margin-bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.60); */
 }
 
 
@@ -69,15 +75,142 @@ body {
     visibility: visible;
   }
 }
+/*---------------------------------------------alert--*/
+.navalert-container .col-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.site-wide-alert {
+  border-radius: 0 ;
+  margin-bottom: 0;
+  padding: 5px 15px;
+}
+
+/*---------------------------------------------callout--*/
+
+.callout-container{
+  height: 100vh;
+
+/*--credit: full size background code taken from https://css-tricks.com/perfect-full-page-background-image/--*/
+
+  background: url("../images/background2.webp") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.callout {
+  background-color: rgba(249, 249, 249, 0.7);
+  
+}
+
+.callout-header {
+  color: #494848;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+ 
+.callout p {
+  font-weight: 400;
+  color: #8d8607;
+}
+/*-credit: .opaque-overlay code come from the lesson Bootstrap: Updating the Callout--*/
+.opaque-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.my-3 {
+  z-index: 1;
+}
+/*---------------------------------------------Button--*/
+/*-credit: btn code come from the lesson Bootstrap: Updating the Callout and edit slightly to fit project needs--*/
+.btn--cta {
+  font-weight: bold;
+  border-radius: 23px;
+  width: 160px;
+}
+
+.btn--red {
+  color: rgb(227, 227, 227);
+  background-color:  #EE4328;
+  border-color:  #EE4328;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+  background-color: #c6442f;
+  border-color: #c6442f;
+}
 
 /*---------------------------------------------Features--*/
+
+.features-container {
+  margin-top: 50px;
+  margin-bottom: 70px;
+  
+}
+
 .feature h3,
 .feature p,
 .feature i {
   display: block;
   text-align: center;
+  color: #b67b0d;
 }
 
+
+
+/*---------------------------------------------Map--*/
+.map-box { 
+  max-width: 60rem;
+    margin: 5rem auto;
+    padding: 3rem 1rem;
+    background-color: #e6dfc84d;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+}
+
+.map {
+  overflow: hidden;
+  
+}
+
+/*---------------------------------------------Member--*/
+
+.members-container img{
+  width: 100%;
+  height: auto;
+}
+
+.member-img {
+  max-width: 10.5rem;
+  max-height: 20rem;
+}
+
+.member-img img {
+  border-radius: 50%;
+}
+
+.member {
+  max-width: 25rem;
+  max-height: 20rem;
+}
 /*---------------------------------------------Footer--*/
 
 footer css
