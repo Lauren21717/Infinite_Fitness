@@ -87,6 +87,52 @@ body {
   padding: 5px 15px;
 }
 
+/*---------------------------------------------Footer--*/
+
+
+
+footer {
+  background-color: #3c3b3b;
+  color: #F9F9F9;
+  min-height: 60px;
+  margin: 0%;
+  position: absolute;
+}
+
+.footer-band {
+  text-decoration: none;
+  margin: 20px;
+  position: relative;
+  top: 50px;
+}
+
+.social-links {
+  padding: 20px;
+}
+
+
+.social-links li a i {
+  width: 40px;
+  height: 40px;
+  padding: 20px 0;
+  border-radius: 50%;
+  font-size: 25px;
+  line-height: 3px;
+  text-align: center;
+  color: #F9F9F9;
+  background-color: #C0C0C0;
+  transition: 0.35s ease-in-out;
+  -moz-transition: 0.35s ease-in-out;
+  -webkit-transition: 0.35s ease-in-out;
+  -o-transition: 0.35s ease-in-out;
+  
+}
+
+.social-links li a i:hover {
+  background: #EE4328;
+  visibility: visible;
+}
+/*index.html*/
 /*---------------------------------------------callout--*/
 
 .callout-container{
@@ -222,51 +268,29 @@ body {
 }
 
 .d-flex {
-  display: flex!important;
+  display: flex;
   justify-content: space-evenly;
 }
-/*---------------------------------------------Footer--*/
 
-footer css
+/* about.html */
+/*---------------------------------------------membership plan--*/
 
-footer {
-  background-color: #3c3b3b;
-  color: #F9F9F9;
-  min-height: 60px;
-  margin: 0%;
-  position: absolute;
-}
 
-.footer-band {
-  text-decoration: none;
-  margin: 20px;
+.equipment-container{
+  height: 100vh;
+
+/*--credit: full size background code taken from https://css-tricks.com/perfect-full-page-background-image/--*/
+
+  background: url("../images/weight1.jpeg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+
   position: relative;
-  top: 50px;
-}
-
-.social-links {
-  padding: 20px;
-}
-
-
-.social-links li a i {
-  width: 40px;
-  height: 40px;
-  padding: 20px 0;
-  border-radius: 50%;
-  font-size: 25px;
-  line-height: 3px;
-  text-align: center;
-  color: #F9F9F9;
-  background-color: #C0C0C0;
-  transition: 0.35s ease-in-out;
-  -moz-transition: 0.35s ease-in-out;
-  -webkit-transition: 0.35s ease-in-out;
-  -o-transition: 0.35s ease-in-out;
-  
-}
-
-.social-links li a i:hover {
-  background: #EE4328;
-  visibility: visible;
 }
