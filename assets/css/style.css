@@ -342,83 +342,35 @@ footer {
 }
 
 
-/*---------------------------------------------Equipment--*/
-/* .equipment-container{}
-
-.equipment{
-  height: 70vh; */
-
-/*--credit: full size background code taken from https://css-tricks.com/perfect-full-page-background-image/--*/
-
-  /* background: url("../images/weight1.jpeg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  display: flex;
-  align-items: center;
-  justify-items: center;
-  justify-content: center;
-
-  position: relative;
-} */
-/*---------------------------------------------Cardio--*/
-/* .cardio-container{}
-
-.cardio{
-  height: 70vh; */
-
-/*--credit: full size background code taken from https://css-tricks.com/perfect-full-page-background-image/--*/
-
-  /* background: url("../images/cardio.jpeg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  display: flex;
-  align-items: center;
-  justify-items: center;
-  justify-content: center;
-
-  position: relative;
-} */
-/*---------------------------------------------Yoga--*/
-/* .yoga-container{}
-
-.yoga{
-  height: 70vh; */
-
-/*--credit: full size background code taken from https://css-tricks.com/perfect-full-page-background-image/--*/
-
-  /* background: url("../images/yoga.jpeg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  display: flex;
-  align-items: center;
-  justify-items: center;
-  justify-content: center;
-
-  position: relative;
-} */
-
 /*---------------------------------------------membership plan--*/
 
-.plan-container{}
+.plan-container{
+  margin-top: 5%;
+}
 
+.plan-container h1 {
+  font-weight: bold;
+  margin-bottom: 5%;
+}
 
 .plan{
-  border: 1px solid #494848;
-  border-radius: 15px;
-  margin:5px 10px;
-  padding: 1rem;
-  
+  background: #f0cd4f;
+  margin-bottom:2rem;
+  padding: 1.7rem 1rem;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.plan h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 500;
 }
 
 .plan ul {
   list-style: none;
+}
+
+.plan:hover {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
