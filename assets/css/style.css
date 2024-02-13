@@ -10,6 +10,7 @@ body {
   background-color: rgba(232, 245, 133, 0.1);
 }
 
+
 /*---------------------------------------------Text--*/
 .general-sub {
   font-family: 'Archivo Black', sans-serif;
@@ -273,15 +274,83 @@ footer {
 }
 
 /* about.html */
-/*---------------------------------------------membership plan--*/
+.description p {
+  padding: 3rem 2rem;
+  text-align: center;
+  font-size: 23px;
+}
+/*---------------------------------------------about--*/
+.about-container {
+  width: 80%;
+  margin: auto;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+}
+
+.about {
+  
+}
+
+.about h1 {
+  font-weight: bold;
+}
 
 
-.equipment-container{
-  height: 100vh;
+.about p {
+  padding: 2rem 0 0;
+}
+
+.about img {
+  width: 100%;
+}
+/*---------------------------------------------facilities--*/
+.facilities-container{
+  width: 80%;
+  margin: 0 auto 7%;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.facilities-container h1 {
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+.facilities {
+  border-radius: 10px;
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+.facilities img {
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 1.5rem;
+}
+
+.facilities h3 {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.facilities p {
+  padding: 0;
+
+}
+
+
+/*---------------------------------------------Equipment--*/
+/* .equipment-container{}
+
+.equipment{
+  height: 70vh; */
 
 /*--credit: full size background code taken from https://css-tricks.com/perfect-full-page-background-image/--*/
 
-  background: url("../images/weight1.jpeg") no-repeat center center fixed; 
+  /* background: url("../images/weight1.jpeg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -293,4 +362,63 @@ footer {
   justify-content: center;
 
   position: relative;
+} */
+/*---------------------------------------------Cardio--*/
+/* .cardio-container{}
+
+.cardio{
+  height: 70vh; */
+
+/*--credit: full size background code taken from https://css-tricks.com/perfect-full-page-background-image/--*/
+
+  /* background: url("../images/cardio.jpeg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+
+  position: relative;
+} */
+/*---------------------------------------------Yoga--*/
+/* .yoga-container{}
+
+.yoga{
+  height: 70vh; */
+
+/*--credit: full size background code taken from https://css-tricks.com/perfect-full-page-background-image/--*/
+
+  /* background: url("../images/yoga.jpeg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+
+  position: relative;
+} */
+
+/*---------------------------------------------membership plan--*/
+
+.plan-container{}
+
+
+.plan{
+  border: 1px solid #494848;
+  border-radius: 15px;
+  margin:5px 10px;
+  padding: 1rem;
+  
+}
+
+.plan ul {
+  list-style: none;
 }
