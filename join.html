@@ -52,6 +52,52 @@
             </div>
         </nav>
     </div>
+
+    <section class="join-us-container">
+        <form method="get" action="#" class="signup-form">
+            <h1>Join Today!!</h1>
+            <p>Fill out this form to apply for your one-time free trial. We will be in touch with you shortly.</p>
+            <fieldset>
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+            </fieldset>
+            <fieldset>
+                <legend>Contact Information:</legend>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <label for="phone-number">Phone Number:</label>
+                <input type="tel" id="phone-number" name="phone" pattern="[0-9]{11}" placeholder="e.g 05555 666 777"
+                    required>
+            </fieldset>
+            <fieldset>
+                <p>Gender:</p>
+                <label for="male">
+                    <input type="radio" id="male" name="gender" value="male" checked>
+                    Male</label>
+                <label for="female">
+                    <input type="radio" id="female" name="gender" value="female">
+                    Female</label>
+                <label for="other">
+                    <input type="radio" id="other" name="gender" value="other">
+                    Other</label>
+            </fieldset>
+            <fieldset>
+                <p>How did you learn about us?</p>
+                <label for="instagram"><input type="checkbox" id="instagram" name="learn-us"
+                        value="instagram">Instagram</label>
+                <label for="facebook"><input type="checkbox" id="facebook" name="learn-us"
+                        value="facebook">Facebook</label>
+                <label for="twitter"><input type="checkbox" id="twitter" name="learn-us" value="twitter">Twitter</label>
+                <label for="google"><input type="checkbox" id="google" name="learn-us" value="google">Google</label>
+                <label for="our-member"><input type="checkbox" id="our-member" name="learn-us"
+                        value="our-member">Someone I know is a Infinite Fitness member</label>
+            </fieldset>
+
+        </form>
+    </section>
+
     <footer class="container-fluid bg-dark text-white pt-5 pb-4">
         <div class="row">
             <div class="col-sm-4">
