@@ -17,8 +17,7 @@ body {
   color: #F9F9F9;
 }
 
-.navbar-brand
-{
+.navbar-brand {
   font-family: 'Archivo Black', sans-serif;
   font-size: 1.5em;
 
@@ -76,6 +75,7 @@ body {
     visibility: visible;
   }
 }
+
 /*---------------------------------------------alert--*/
 .navalert-container .col-12 {
   padding-left: 0;
@@ -83,7 +83,7 @@ body {
 }
 
 .site-wide-alert {
-  border-radius: 0 ;
+  border-radius: 0;
   margin-bottom: 0;
   padding: 5px 15px;
 }
@@ -126,22 +126,23 @@ footer {
   -moz-transition: 0.35s ease-in-out;
   -webkit-transition: 0.35s ease-in-out;
   -o-transition: 0.35s ease-in-out;
-  
+
 }
 
 .social-links li a i:hover {
   background: #EE4328;
   visibility: visible;
 }
+
 /*index.html*/
 /*---------------------------------------------callout--*/
 
-.callout-container{
+.callout-container {
   height: 100vh;
 
-/*--credit: full size background code taken from https://css-tricks.com/perfect-full-page-background-image/--*/
+  /*--credit: full size background code taken from https://css-tricks.com/perfect-full-page-background-image/--*/
 
-  background: url("../images/background2.webp") no-repeat center center fixed; 
+  background: url("../images/background2.webp") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -157,7 +158,7 @@ footer {
 
 .callout {
   background-color: rgba(249, 249, 249, 0.7);
-  
+
 }
 
 .callout-header {
@@ -165,11 +166,12 @@ footer {
   font-weight: bolder;
   margin-bottom: 30px;
 }
- 
+
 .callout p {
   font-weight: 400;
   color: #8d8607;
 }
+
 /*-credit: .opaque-overlay code come from the lesson Bootstrap: Updating the Callout--*/
 .opaque-overlay {
   position: absolute;
@@ -183,6 +185,7 @@ footer {
 .my-3 {
   z-index: 1;
 }
+
 /*---------------------------------------------Button--*/
 /*-credit: btn code come from the lesson Bootstrap: Updating the Callout and edit slightly to fit project needs--*/
 .btn--cta {
@@ -193,8 +196,8 @@ footer {
 
 .btn--red {
   color: rgb(227, 227, 227);
-  background-color:  #EE4328;
-  border-color:  #EE4328;
+  background-color: #EE4328;
+  border-color: #EE4328;
 }
 
 .btn--red:hover,
@@ -210,7 +213,7 @@ footer {
 .features-container {
   margin-top: 50px;
   margin-bottom: 70px;
-  
+
 }
 
 .feature h3,
@@ -224,23 +227,23 @@ footer {
 
 
 /*---------------------------------------------Map--*/
-.map-box { 
+.map-box {
   max-width: 60rem;
-    margin: 5rem auto;
-    padding: 3rem 1rem;
-    background-color: #e6dfc84d;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 1rem;
+  margin: 5rem auto;
+  padding: 3rem 1rem;
+  background-color: #e6dfc84d;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
 }
 
 .map {
   overflow: hidden;
-  
+
 }
 
 /*---------------------------------------------Member--*/
 
-.members img{
+.members img {
   width: 90%;
   height: auto;
 }
@@ -279,6 +282,7 @@ footer {
   text-align: center;
   font-size: 23px;
 }
+
 /*---------------------------------------------about--*/
 .about-container {
   width: 80%;
@@ -287,9 +291,7 @@ footer {
   padding-bottom: 2rem;
 }
 
-.about {
-  
-}
+.about {}
 
 .about h1 {
   font-weight: bold;
@@ -303,8 +305,9 @@ footer {
 .about img {
   width: 100%;
 }
+
 /*---------------------------------------------facilities--*/
-.facilities-container{
+.facilities-container {
   width: 80%;
   margin: 0 auto 7%;
   text-align: center;
@@ -344,7 +347,7 @@ footer {
 
 /*---------------------------------------------membership plan--*/
 
-.plan-container{
+.plan-container {
   margin-top: 5%;
 }
 
@@ -353,9 +356,9 @@ footer {
   margin-bottom: 5%;
 }
 
-.plan{
+.plan {
   background: #f0cd4f;
-  margin-bottom:2rem;
+  margin-bottom: 2rem;
   padding: 1.7rem 1rem;
   border-radius: 10px;
   box-sizing: border-box;
@@ -377,6 +380,61 @@ footer {
 
 /*join.html*/
 /*---------------------------------------------form--*/
-.join-us-container {
 
+
+
+.join-us-container {
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.form-title {
+  margin: 2rem auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+.form-background img {
+  max-width: 100%;
+  padding: 9rem 0;
+}
+
+@media (max-width: 990px) {
+  .form-background img {display: none;}
+}
+
+.form-content {
+  padding: 1rem 0;
+}
+
+legend {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+}
+
+input,
+textarea {
+  margin: 10px 0 10px;
+  width: 100%;
+  min-height: 2em;
+}
+
+.inline-items {
+  width: unset;
+  margin: 0 1rem 0 0;
+  vertical-align: middle;
+}
+
+textarea {
+  height: 5em;
 }
