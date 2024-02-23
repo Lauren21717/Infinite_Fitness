@@ -29,10 +29,9 @@
         2. I am interested in obtaining pricing details, such as joining fees and special offers.
         3. I need to know the gym's location to decide whether to join.
         4. I want an easy navigation experience throughout the site to find relevant content.
-     - #### As a current member:
-        1. I want a straightforward process to sign up for classes.
-        2. I need access to the schedule of classes for planning my workouts.
-        3. I am interested in information about social events and activities.
+        5. I want a straightforward process to sign up for classes.
+        6. I need access to the schedule of classes for planning my workouts.
+        7. I am interested in information about social events and activities.
 
 
 - ### Design
@@ -44,18 +43,18 @@
      - The predominant colors I'll employ on the website are red and white, symbolizing enthusiasm and passion.
 
    - #### Photo
-
+     - I have placed photos on each page, as well as a photo gallery on the homepage, to make it visually appealing and motivational.
    - #### Video
 
 - ### Wireframe
     - Home Page Wireframe 
-    ![home](home.png)
+    ![home](../Milestone_project_1/assets/images/home.png)
     - About Page Wireframe 
-    ![about](about.png)
+    ![about](../Milestone_project_1/assets/images/about.png)
     - Class Page Wireframe 
-    ![class](class.png)
+    ![class](../Milestone_project_1/assets/images/class.png)
     - Join Now Page Wireframe 
-    ![join](join.png)
+    ![join](../Milestone_project_1/assets/images/join.png)
 
 ## Technologies Used
 
@@ -86,9 +85,15 @@
 
 - ## Credit
     - ###  Code
+        - I implemented the off-canvas navigation bar code from [Bootstrap](http://getbootstrap.com/docs/5.3/components/navbar/)
+        - [Bootstrap autoplaying carousels](https://getbootstrap.com/docs/5.3/components/carousel/#autoplaying-carousels) for the carousel slider.
+        - [CSS-TRICKS](https://css-tricks.com/perfect-full-page-background-image/) for full size background.
+        - The callout code is from the lesson titled "Updating the Callout" on [Code Institute's](https://codeinstitute.net/full-stack-software-development-diploma/?utm_term=code%20institute&utm_campaign=CI+-+UK+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=1578649861&hsa_grp=62188641240&hsa_ad=635720257674&hsa_src=g&hsa_tgt=kwd-319867646331&hsa_kw=code%20institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gbraid=0AAAAADnKut8X7dWnPjX2BFo_L9i_jjhPu&gclid=CjwKCAiA29auBhBxEiwAnKcSqux1aKPppa2HXA2CJkkSAp244QIqf9QPYGK24XywOxpaX1ZpQLKPRRoCuqEQAvD_BwE) Bootstrap course.
+        - The button code has been sourced from the Bootstrap lesson titled "Updating the Callout" on [Code Institute's](https://codeinstitute.net/full-stack-software-development-diploma/?utm_term=code%20institute&utm_campaign=CI+-+UK+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=1578649861&hsa_grp=62188641240&hsa_ad=635720257674&hsa_src=g&hsa_tgt=kwd-319867646331&hsa_kw=code%20institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gbraid=0AAAAADnKut8X7dWnPjX2BFo_L9i_jjhPu&gclid=CjwKCAiA29auBhBxEiwAnKcSqux1aKPppa2HXA2CJkkSAp244QIqf9QPYGK24XywOxpaX1ZpQLKPRRoCuqEQAvD_BwE) course, with slight modifications to suit the project requirements.
     - ### Content
+        -The content has been generated using [ChatGPT 3.5](https://chat.openai.com/).
     - ### Media
-
+        
 - ## Deployment
 
 - ### How to run this project locally

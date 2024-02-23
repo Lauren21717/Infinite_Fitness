@@ -344,6 +344,24 @@ footer {
 
 }
 
+/* class.html */
+/*---------------------------------------------classes--*/
+.class h3 {
+  margin-bottom: 0.5rem;
+}
+
+.class h5 {
+  margin-top: 0.5rem;
+  font-size: 18px;
+}
+
+@media (min-width: 990px) {
+  .class img {
+    height: 370px;
+    object-fit: cover;
+    object-position: center top;
+  }
+}
 
 /*---------------------------------------------membership plan--*/
 
@@ -354,6 +372,7 @@ footer {
 .plan-container h1 {
   font-weight: bold;
   margin-bottom: 5%;
+  text-align: center;
 }
 
 .plan {
@@ -362,6 +381,8 @@ footer {
   padding: 1.7rem 1rem;
   border-radius: 10px;
   box-sizing: border-box;
+  max-width: 500px;
+  min-height: 300px;
 }
 
 .plan h3 {
@@ -372,6 +393,10 @@ footer {
 
 .plan ul {
   list-style: none;
+}
+
+.plan li {
+  padding: 3px;
 }
 
 .plan:hover {
@@ -406,7 +431,9 @@ footer {
 }
 
 @media (max-width: 990px) {
-  .form-background img {display: none;}
+  .form-background img {
+    display: none;
+  }
 }
 
 .form-content {
