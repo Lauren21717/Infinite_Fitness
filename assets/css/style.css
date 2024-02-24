@@ -107,8 +107,6 @@ body {
 
 /*---------------------------------------------Footer--*/
 
-
-
 footer {
   background-color: #3c3b3b;
   color: #F9F9F9;
@@ -117,15 +115,15 @@ footer {
   position: absolute;
 }
 
-.footer-band {
-  text-decoration: none;
-  margin: 20px;
-  position: relative;
-  top: 50px;
+.footer-item {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
+
 .social-links {
-  padding: 20px;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 
@@ -149,6 +147,18 @@ footer {
 .social-links li a i:hover {
   background: #EE4328;
   visibility: visible;
+}
+
+.our-page a {
+  color: #F9F9F9;
+  transition: 0.35s ease-in-out;
+  -moz-transition: 0.35s ease-in-out;
+  -webkit-transition: 0.35s ease-in-out;
+  -o-transition: 0.35s ease-in-out;
+}
+
+.our-page a:hover {
+  color: #C0C0C0;
 }
 
 /*index.html*/
