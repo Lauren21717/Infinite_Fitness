@@ -26,6 +26,15 @@ body {
 
 /*---------------------------------------------Nav--*/
 
+.home-background {
+  background: url('../images/background2.webp') rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
 /* .navalert-container {
   position: absolute;
   top: 0;
@@ -36,21 +45,18 @@ body {
 
 .navbar {
   height: 90px;
-  /* margin-bottom: 0;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.60); */
 }
 
 
 .nav-link {
-  color: #C0C0C0;
   font-weight: 600;
   position: relative;
+  padding: 10px;
 }
 
 .nav-link:hover,
 .nav-link:active {
-  color: #000000;
+  color: #F9F9F9;
 }
 
 @media (min-width: 900px) {
@@ -58,7 +64,7 @@ body {
     content: "";
     position: absolute;
     bottom: 0;
-    left: 5px;
+    left: 3px;
     width: 0;
     height: 2px;
     background-color: #EE4328;
@@ -73,6 +79,17 @@ body {
   .nav-link.active:before {
     width: 90%;
     visibility: visible;
+  }
+}
+
+.offcanvas-title {
+  color: #F9F9F9;
+}
+
+@media (max-width: 990px) {
+  .sidebar {
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
   }
 }
 
@@ -137,28 +154,15 @@ footer {
 /*index.html*/
 /*---------------------------------------------callout--*/
 
-.callout-container {
-  height: 100vh;
-
-  /*--credit: full size background code taken from https://css-tricks.com/perfect-full-page-background-image/--*/
-
-  background: url("../images/background2.webp") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  display: flex;
-  align-items: center;
-  justify-items: center;
-  justify-content: center;
-
-  position: relative;
+.callout-position {
+  margin-top: 7%;
+  display: ruby;
 }
 
-.callout {
-  background-color: rgba(249, 249, 249, 0.7);
 
+.callout {
+  background-color: rgba(249, 249, 249, 0.8);
+  width: 80%;
 }
 
 .callout-header {
@@ -184,6 +188,7 @@ footer {
 
 .my-3 {
   z-index: 1;
+  margin-top: 7%;
 }
 
 /*---------------------------------------------Button--*/
@@ -277,6 +282,17 @@ footer {
 }
 
 /* about.html */
+
+.about-header {
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(232, 245, 133, 0.1)), url(../images/background11.jpeg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #F9F9F9;
+}
+
 .description p {
   padding: 3rem 2rem;
   text-align: center;
@@ -464,4 +480,16 @@ textarea {
 
 textarea {
   height: 5em;
+}
+
+/* -------------ts--------------- */
+
+.bg {
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(232, 245, 133, 0.1)), url(../images/background11.jpeg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #F9F9F9;
 }

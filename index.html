@@ -17,55 +17,61 @@
 <body>
     <!--Nav-->
     <!--credit: code foe nav bar taken from https://getbootstrap.com/docs/5.3/components/navbar/ and edit slightly to fit project needs -->
-    <div class="container-fluid navalert-container">
-    <nav class="navbar navbar-expand-lg navbar-light ">
-        <div class="container-fluid">
-            <a class="navbar-brand text-uppercase" target="_blank" href="#">Infinite Fitness</a>
-            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Infinite Fitness</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item  mr-2">
-                            <a target="_blank" class="nav-link active mx-lg-3" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a target="_blank" class="nav-link mx-lg-3" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a target="_blank" class="nav-link mx-lg-3" href="#">Class</a>
-                        </li>
-                        <li class="nav-item">
-                            <a target="_blank" class="nav-link mx-lg-3" href="#">Join Now</a>
-                        </li>
+    <div class="home-background">
+        <div class="container-fluid navalert-container">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-transparant">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-uppercase" target="_blank" href="#">Infinite Fitness</a>
+                    <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                    </ul>
+                    <div class="offcanvas offcanvas-end sidebar" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Infinite Fitness</h5>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item  mr-2">
+                                    <a target="_blank" class="nav-link active mx-lg-3" aria-current="page"
+                                        href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a target="_blank" class="nav-link mx-lg-3" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a target="_blank" class="nav-link mx-lg-3" href="#">Class</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a target="_blank" class="nav-link mx-lg-3" href="#">Join Now</a>
+                                </li>
 
+                            </ul>
+
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </nav>
         </div>
-    </nav>
-</div>
 
-    <div class="container-fluid callout-container">
-        <!-- Callout -->
-        <div class="opaque-overlay">&nbsp;</div>
-        <div class="row">
-            <div class="col-12 my-3">
-                <section class="callout p-5 rounded-lg m-3 text-center">
-                    <h1 class="display-4 callout-header">Embrace the challenge, conquer your fitness goals—our 24-hour gym is here to
-                        help build your
-                        dream physique.</h1>
-                    <p class="lead">Grab a free trial and jump in with us today! Join the fun now!</p>
-                    <p><button type="button" class="btn btn--red btn--cta">JOIN NOW</button></p>
-                </section>
+        <div class="container-fluid callout-container">
+            <!-- Callout -->
+            <div class="row">
+                <div class="col-12 callout-position">
+                    <section class="callout p-5 rounded-lg m-3 text-center">
+                        <h1 class="display-4 callout-header">Embrace the challenge, conquer your fitness goals—our
+                            24-hour gym is here to
+                            help build your
+                            dream physique.</h1>
+                        <p class="lead">Grab a free trial and jump in with us today! Join the fun now!</p>
+                        <p><button type="button" class="btn btn--red btn--cta">JOIN NOW</button></p>
+                    </section>
+                </div>
             </div>
         </div>
     </div>
@@ -73,7 +79,7 @@
     </div>
 
     <!-- Features -->
-    <div class="container features-container" >
+    <div class="container features-container">
         <section class="features">
             <div class="row">
                 <div class="col-12 col-md-12 col-lg-4 ">
@@ -104,7 +110,7 @@
         </section>
     </div>
     <!-- /.features -->
-    
+
 
     <!-- carousel-->
     <!--credit: code of carousel taken from https://getbootstrap.com/docs/5.3/components/carousel/#autoplaying-carousels and edit slightly to fit project needs -->
@@ -223,7 +229,7 @@
         </div>
     </section>
     <!-- /.members -->
-    
+
 
 
     <footer class="container-fluid bg-dark text-white pt-5 pb-4">
