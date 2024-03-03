@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -14,44 +15,51 @@
 
 
 <body>
-    <!--Nav-->
+     <!--Nav-->
     <!--credit: code foe nav bar taken from https://getbootstrap.com/docs/5.3/components/navbar/ and edit slightly to fit project needs -->
-    <div class="container-fluid navalert-container">
-        <nav class="navbar navbar-expand-lg navbar-light ">
-            <div class="container-fluid">
-                <a class="navbar-brand text-uppercase" target="_blank" href="#">Infinite Fitness</a>
-                <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                    aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Infinite Fitness</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item  mr-2">
-                                <a target="_blank" class="nav-link active mx-lg-3" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a target="_blank" class="nav-link mx-lg-3" href="#">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a target="_blank" class="nav-link mx-lg-3" href="#">Class</a>
-                            </li>
-                            <li class="nav-item">
-                                <a target="_blank" class="nav-link mx-lg-3" href="#">Join Now</a>
-                            </li>
+    <div class="join-us-header">
+        <div class="container-fluid navalert-container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparant">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-uppercase" target="_blank" href="#">Infinite Fitness</a>
+                    <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                        </ul>
+                    <div class="offcanvas offcanvas-end sidebar" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Infinite Fitness</h5>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item  mr-2">
+                                    <a target="_blank" class="nav-link mx-lg-3" aria-current="page"
+                                        href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a target="_blank" class="nav-link mx-lg-3" href="about.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a target="_blank" class="nav-link mx-lg-3" href="class.html">Class</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a target="_blank" class="nav-link active mx-lg-3" href="join.html">Join Now</a>
+                                </li>
 
+                            </ul>
+
+                        </div>
                     </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </div>
+
 
     <section class="join-us-container">
         <div class="row">
@@ -61,7 +69,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-12 col-lg-6">
-                <form method="get" action="#" class="signup-form">
+                <form method="get" action="confirmation.html" class="signup-form">
                     <h1 class="form-title">Join Today!!</h1>
                     <p class="form-title">Fill out this form to apply for your one-time free trial. We will be in touch
                         with
@@ -102,7 +110,6 @@
                                 value="google">Google</label>
                         <label for="our-member"><input class="inline-items" type="checkbox" id="our-member"
                                 name="referrer" value="our-member">Someone I know is a Infinite Fitness member</label>
-                        </label>
                         <label for="message">Any message for us:
                             <textarea id="message" rows="8"></textarea>
                         </label>

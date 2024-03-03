@@ -35,13 +35,6 @@ body {
   height: 100vh;
 }
 
-/* .navalert-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding-left: 0;
-  padding-right: 0;
-} */
 
 .navbar {
   height: 90px;
@@ -296,7 +289,7 @@ footer {
 .about-header {
   height: 50vh;
   width: 100%;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(232, 245, 133, 0.1)), url(../images/background11.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(232, 245, 133, 0.1)), url(../images/background11.jpeg);
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -493,13 +486,27 @@ textarea {
 }
 
 /* -------------ts--------------- */
+/*confirmation.html*/
 
-.bg {
-  height: 50vh;
-  width: 100%;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(232, 245, 133, 0.1)), url(../images/background11.jpeg);
-  background-position: center;
-  background-size: cover;
+.confirmation-container {
+  width: 70%;
+  margin: 0 auto;
   text-align: center;
-  color: #F9F9F9;
+}
+
+.confirmation h1 {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  font-size: 50px;
+  font-weight: bold;
+  display: grid;
+}
+
+.confirmation h1 i {
+  font-size: 30px;
+}
+
+.confirmation p {
+  font-size: 25px;
+  padding-bottom: 5rem;
 }
