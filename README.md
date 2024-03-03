@@ -77,11 +77,65 @@
        - Image Creator from Designer helps you generate images based on your words with AI.
     7. [Font Awesome](https://fontawesome.com/v5/search)
        - Font Awesome icons were incorporated on all pages across the website to enhance aesthetics and improve the UX.
-    8. [Hover.css](https://ianlunn.github.io/Hover/)
-       - Hover.css was applied to the icons in the nav bar and the footer, introducing a float transition effect when hovered over.
+
 
 - ### Bugs Discovered
-    - 1. 
+    -  I checked the code by [HTML Validator](https://validator.w3.org/) and fixed some warning and error.
+       - #### index.html
+           1. Fixed Warning: Section lacks heading
+              - Resolved the warning by replacing the <section> tag with a <div> tag for the container without a heading.
+              - From: <section class="container-fluid navalert-container">
+                To: <div class="container-fluid navalert-container">
+           2. Section lacks heading
+              - Fixed the warning by replacing the <section> tag with a <div> tag for the container without a heading.
+              - From: <section class="container-fluid callout-container">
+                To: <div class="container-fluid callout-container">
+           3. Stray end tag </div>
+              - Deleted the </div> in line 79 to fix the error.
+           4. Section lacks heading
+              - Fixed the warning by replacing the <section> tag with a <div> tag for the container without a heading.
+              - From: <section class="carousel-container">
+                To: <div class="carousel-container">
+     - #### about.html
+          1. Warning - Section lacks heading
+              - Addressed the warning by replacing <section class="about-header"> with <div class="about-header">.
+              - From: <section class="about-header">
+                To: <div class="about-header">
+          2. Stray end tag </div>
+              - Removed the stray </div> tag at line 124 to resolve the error
+          3. Stray end tag </div>
+              - Deleted the unnecessary </div> tag at line 127 to fix the error.
+    - #### class.html
+         1. Warning - Section lacks heading
+              - Corrected the warning by changing <section class="about-header"> to <div class="about-header">.
+              - From: <section class="about-header">
+                To: <div class="about-header">
+         2. Error - Stray end tag </section>
+              - Removed the unnecessary </section> tag at line 137 to resolve the error.
+    - #### join.html
+         1. Error - Missing DOCTYPE
+              - Rectified the error by adding <!DOCTYPE html> at the beginning of the document.
+              - Before: <html lang="en">
+                After: <!DOCTYPE html>
+                        <html lang="en">
+          2. Warning - Section lacks heading
+              - Corrected the warning by changing <section class="join-us-header"> to <div class="join-us-header">.
+              - From: <section class="join-us-header">
+                To: <div class="join-us-header">
+          3. Error - Stray end tag </label>
+              - Resolved the error by removing the unnecessary </label> tag at line 112.
+    - #### confirmation.html
+         1. Error - Missing DOCTYPE
+              - Rectified the error by adding <!DOCTYPE html> at the beginning of the document.
+              - Before: <html lang="en">
+                After: <!DOCTYPE html>
+                        <html lang="en">
+          2. Warning - Section lacks heading
+              - CCorrected the warning by changing <section class="confirmation-header"> to <div class="confirmation-header">.
+              - From: <section class="confirmation-header">
+                To: <div class="confirmation-header">
+    - #### CSS
+       - I use the CSS Validator and I founds no error and bugs.           
 
 - ## Credit
     - ###  Code
