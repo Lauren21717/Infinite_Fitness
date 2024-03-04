@@ -48,14 +48,62 @@
 
 - ### Wireframe
     - Home Page Wireframe 
-    ![home](../Milestone_project_1/assets/media/home.png)
+    ![home](assets/media/home.png)
     - About Page Wireframe 
-    ![about](../Milestone_project_1/assets/media/about.png)
+    ![about](assets/media/about.png)
     - Class Page Wireframe 
-    ![class](../Milestone_project_1/assets/media/class.png)
+    ![class](assets/media/class.png)
     - Join Now Page Wireframe 
-    ![join](../Milestone_project_1/assets/media/join.png)
+    ![join](assets/media/join.png)
 
+## Features
+  - ### Nav Bar
+    |||
+    |-|-|
+    |The gym's name, linking to the home page.|![Gym name]()|
+    |Offer navigation links and the site's title for the Home, About, Classes, and Join Now pages.|![Navbar]()|
+    |Activate the Home to indicate the current page the user is viewing.|![Home active]()|
+    |Display the menu icon on tablet and mobile devices.|![Menu Icon]()|
+
+  - ### Footer
+    |||
+    |-|-|
+    |The "About Us" text is displayed in the footer.|![Footer About Text]()|
+    |Provide navigation links and the site's title for the Home, About, Classes, and Join Now pages.|![Footer Nav links]()|
+    |Includes links to social media platforms.|![Footer social links]()|
+    
+  - ### Home
+    |||
+    |-|-|
+    |The callout section displays an introduction and promotion text, accompanied by a button linking to the "Join Now" page.|![Callout out]()|
+    |Highlight the advantages and characteristics of our gym.|![Features]()|
+    |Motivational carousel images.|![Carousel]()|
+    |Embeds a map to showcase the gym's location.|![Google Map]()|
+    |Member photos and reviews.|![Members]()|
+
+  - ### About
+    |||
+    |-|-|
+    |Activate the About to indicate the current page the user is viewing.|![About active]()|
+    |Includes details about the gym.|![About Page]()|
+    |Showcases our facilities.|![Our Facilities]()|
+
+  - ### Class
+    |||
+    |-|-|
+    |Activate the Class to indicate the current page the user is viewing.|![Class active]()|
+    |Description of gym classes.|![Class Page]()|
+    |Display schedules for Cardio, Group Training, Yoga, and Equipment.|![Class schedules]()|
+    |Highlights the benefits of our three membership tiers.|![Membership]()|
+    
+
+  - ### Join Now
+    |||
+    |-|-|
+    |Activate the Join Now to indicate the current page the user is viewing.|![Join Now]()|
+    |Includes a form for users to enter their name, email, phone number, gender, and message. Users can register for the free trial and leave a message.|![Form]()|
+    |The submit button links to the confirmation page, where users can view confirmation texts.|![confirmation page]()|
+    
 ## Technologies Used
 
 - ### Languages Used
@@ -78,6 +126,42 @@
     7. [Font Awesome](https://fontawesome.com/v5/search)
        - Font Awesome icons were incorporated on all pages across the website to enhance aesthetics and improve the UX.
 
+## Testing
+
+- ### Validator Testing
+    - #### HTML
+        - [W3C Validator - index.html]()
+          ![W3C Results - index.html]()
+        - [W3C Validator - about.html]()
+          ![W3C Results - about.html]()
+        - [W3C Validator - class.html]()
+          ![W3C Results - class.html]()
+        - [W3C Validator - join.html]()
+          ![W3C Results - join.html]()
+        - [W3C Validator - confirmation.html]()
+          ![W3C Results - confirmation.html]()
+    - #### CSS
+        - [Jigsaw Validator - CSS]()
+          ![Jigsaw Result - CSS]()
+
+- ### Google Developer Tools Lighthouse
+    - #### Home
+      ![Home lighthouse result]()
+    - #### About
+      ![About lighthouse result]()
+    - #### Class
+      ![Class lighthouse result]()
+    - #### Join Now
+      ![Join Now lighthouse result]()
+
+- ### Responsiveness
+    - Screenshots of responsive design breakpoints for various devices.
+    - Viewport - Desktop: # / Laptop: # / Tablet: # / Mobile: #.
+ 
+      ![Responsive Screenshots - Home]()
+      ![Responsive Screenshots - About]()
+      ![Responsive Screenshots - Class]()
+      ![Responsive Screenshots - Join Now]()
 
 - ### Bugs Discovered
     -  I checked the code by [HTML Validator](https://validator.w3.org/) and fixed some warning and error.
