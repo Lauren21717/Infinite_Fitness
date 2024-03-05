@@ -24,15 +24,14 @@
      4. To create a warm and secure atmosphere where members can pursue their fitness objectives.
   
 - ### User stories
-     - #### As a first-time visitor:
-        1. I seek information about the gym's services and facilities.
-        2. I am interested in obtaining pricing details, such as joining fees and special offers.
-        3. I need to know the gym's location to decide whether to join.
-        4. I want an easy navigation experience throughout the site to find relevant content.
-        5. I want a straightforward process to sign up for classes.
-        6. I need access to the schedule of classes for planning my workouts.
-        7. I am interested in information about social events and activities.
-
+    ||User Story|Acceptance Criteria|
+    | ----- | ----- | ----- |
+    |1.| I seek information about the gym's services and facilities.| I can easily find a section detailing all services and facilities offered by the gym.|
+    |2.| I am interested in obtaining membership details, such as membership welfare and special offers.| On the membership section of the website, I am able to view membership details and any available special offers.|
+    |3.| I need to know the gym's location to decide whether to join.| The gym's location be prominently displayed on the home page of the website, easily accessible for visitors to make an informed decision about joining.|
+    |4.| I want an easy navigation experience throughout the site to find relevant content.| When navigating through the website, I find it intuitive and straightforward to locate relevant content.|
+    |5.| I want a straightforward process to sign up for the gym.| On the website, it shows clear and user-friendly process for signing up for the gym, with a user friendly form.|
+    |6.| I need access to the schedule of classes for planning my workouts.| I discovered a clear schedule outlining all classes, including their descriptions and respective timings.|
 
 - ### Design
 
@@ -44,7 +43,6 @@
 
    - #### Photo
      - I have placed photos on each page, as well as a photo gallery on the homepage, to make it visually appealing and motivational.
-   - #### Video
 
 - ### Wireframe
     - Home Page Wireframe 
@@ -56,7 +54,7 @@
     - Join Now Page Wireframe 
     ![join](assets/media/join.png)
 
-## Features
+- ## Features
   - ### Nav Bar
     |||
     |-|-|
@@ -104,7 +102,7 @@
     |Includes a form for users to enter their name, email, phone number, gender, and message. Users can register for the free trial and leave a message.|![Form]()|
     |The submit button links to the confirmation page, where users can view confirmation texts.|![confirmation page]()|
     
-## Technologies Used
+- ## Technologies Used
 
 - ### Languages Used
     - HTML5
@@ -126,7 +124,7 @@
     7. [Font Awesome](https://fontawesome.com/v5/search)
        - Font Awesome icons were incorporated on all pages across the website to enhance aesthetics and improve the UX.
 
-## Testing
+- ## Testing
 
 - ### Validator Testing
     - #### HTML
@@ -163,64 +161,96 @@
       ![Responsive Screenshots - Class]()
       ![Responsive Screenshots - Join Now]()
 
+- ## Manual Testing
+    - Manual testing conducted on the page include:
+        - #### Navigation Testing
+            - Ensure all navigation links and menus function correctly and navigate to the intended page.
+        - #### Form Testing
+            - Test the forms to ensure they submit data correctly and display appropriate validation messages for any errors.
+        - #### Content Testing
+            - Review all text content, images, and multimedia elements to ensure accuracy, relevance, and proper formatting.
+        - #### Functionality Testing
+            - Test all interactive elements such as buttons, dropdowns, sliders, and accordions to ensure they perform their intended functions without errors.
+        - #### Cross-Browser Testing
+            - Verify the compatibility of the website across different web browsers (e.g., Chrome, Firefox, Safari) to ensure consistent behavior and appearance.
+        - #### Compatibility Testing
+            -Test the website on different devices (e.g., desktops, laptops, tablets, smartphones) and operating systems (e.g., Windows, macOS, iOS, Android) to ensure compatibility and functionality across various platforms.
+- ### 
+
 - ### Bugs Discovered
     -  I checked the code by [HTML Validator](https://validator.w3.org/) and fixed some warning and error.
        - #### index.html
            1. Fixed Warning: Section lacks heading
               - Resolved the warning by replacing the <section> tag with a <div> tag for the container without a heading.
-              - From: <section class="container-fluid navalert-container">
-                To: <div class="container-fluid navalert-container">
+              - From: `<section class="container-fluid navalert-container">`
+                To: `<div class="container-fluid navalert-container">`
            2. Section lacks heading
               - Fixed the warning by replacing the <section> tag with a <div> tag for the container without a heading.
-              - From: <section class="container-fluid callout-container">
-                To: <div class="container-fluid callout-container">
-           3. Stray end tag </div>
-              - Deleted the </div> in line 79 to fix the error.
+              - From: `<section class="container-fluid callout-container">`
+                To: `<div class="container-fluid callout-container">`
+           3. Stray end tag `</div>`
+              - Deleted the `</div>` in line 79 to fix the error.
            4. Section lacks heading
-              - Fixed the warning by replacing the <section> tag with a <div> tag for the container without a heading.
-              - From: <section class="carousel-container">
-                To: <div class="carousel-container">
+              - Fixed the warning by replacing the `<section>` tag with a `<div>` tag for the container without a heading.
+              - From: `<section class="carousel-container">`
+                To: `<div class="carousel-container">`
      - #### about.html
           1. Warning - Section lacks heading
-              - Addressed the warning by replacing <section class="about-header"> with <div class="about-header">.
-              - From: <section class="about-header">
-                To: <div class="about-header">
-          2. Stray end tag </div>
-              - Removed the stray </div> tag at line 124 to resolve the error
-          3. Stray end tag </div>
-              - Deleted the unnecessary </div> tag at line 127 to fix the error.
+              - Addressed the warning by replacing `<section class="about-header">` with `<div class="about-header">`.
+              - From: `<section class="about-header">`
+                To: `<div class="about-header">`
+          2. Stray end tag `</div>`
+              - Removed the stray `</div>` tag at line 124 to resolve the error
+          3. Stray end tag `</div>`
+              - Deleted the unnecessary `</div>` tag at line 127 to fix the error.
     - #### class.html
          1. Warning - Section lacks heading
-              - Corrected the warning by changing <section class="about-header"> to <div class="about-header">.
-              - From: <section class="about-header">
-                To: <div class="about-header">
-         2. Error - Stray end tag </section>
-              - Removed the unnecessary </section> tag at line 137 to resolve the error.
+              - Corrected the warning by changing `<section class="about-header">` to `<div class="about-header">`.
+              - From: `<section class="about-header">`
+                To: `<div class="about-header">`
+         2. Error - Stray end tag `</section>`
+              - Removed the unnecessary `</section>` tag at line 137 to resolve the error.
     - #### join.html
          1. Error - Missing DOCTYPE
-              - Rectified the error by adding <!DOCTYPE html> at the beginning of the document.
-              - Before: <html lang="en">
-                After: <!DOCTYPE html>
-                        <html lang="en">
+              - Rectified the error by adding `<!DOCTYPE html>` at the beginning of the document.
+              - Before: `<html lang="en">`
+                After: `<!DOCTYPE html>`
+                        `<html lang="en">`
           2. Warning - Section lacks heading
-              - Corrected the warning by changing <section class="join-us-header"> to <div class="join-us-header">.
-              - From: <section class="join-us-header">
-                To: <div class="join-us-header">
-          3. Error - Stray end tag </label>
-              - Resolved the error by removing the unnecessary </label> tag at line 112.
+              - Corrected the warning by changing `<section class="join-us-header">` to `<div class="join-us-header">`.
+              - From: `<section class="join-us-header">`
+                To: `<div class="join-us-header">`
+          3. Error - Stray end tag `</label>`
+              - Resolved the error by removing the unnecessary `</label>` tag at line 112.
     - #### confirmation.html
          1. Error - Missing DOCTYPE
-              - Rectified the error by adding <!DOCTYPE html> at the beginning of the document.
-              - Before: <html lang="en">
-                After: <!DOCTYPE html>
-                        <html lang="en">
+              - Rectified the error by adding `<!DOCTYPE html>` at the beginning of the document.
+              - Before: `<html lang="en">`
+                After: `<!DOCTYPE html>`
+                        `<html lang="en">`
           2. Warning - Section lacks heading
-              - CCorrected the warning by changing <section class="confirmation-header"> to <div class="confirmation-header">.
-              - From: <section class="confirmation-header">
-                To: <div class="confirmation-header">
+              - CCorrected the warning by changing `<section class="confirmation-header">` to `<div class="confirmation-header">`.
+              - From: `<section class="confirmation-header">`
+                To: `<div class="confirmation-header">`
     - #### CSS
        - I use the CSS Validator and I founds no error and bugs.           
 
+- ## UI Improvements
+  - Adjust the `border-radius` of the `pic` on the about, class, and join now pages to maintain consistency and enhance the user experience.
+    
+      - ### About
+        |Before|After|
+        |---|---|
+        |![about img before]()|![about img after]()|
+      - ### Class
+        |Before|After|
+        |---|---|
+        |![Class img before]()|![Class img after]()|
+      - ### Join Now
+        |Before|After|
+        |---|---|
+        |![join img before]()|![join img after]()|
+        
 - ## Credit
     - ###  Code
         - I implemented the off-canvas navigation bar code from [Bootstrap](http://getbootstrap.com/docs/5.3/components/navbar/)
