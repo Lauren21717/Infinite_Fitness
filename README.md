@@ -48,13 +48,13 @@
 
 - ### Wireframe
     - Home Page Wireframe 
-    ![home](../Milestone_project_1/assets/images/home.png)
+    ![home](../Milestone_project_1/assets/media/home.png)
     - About Page Wireframe 
-    ![about](../Milestone_project_1/assets/images/about.png)
+    ![about](../Milestone_project_1/assets/media/about.png)
     - Class Page Wireframe 
-    ![class](../Milestone_project_1/assets/images/class.png)
+    ![class](../Milestone_project_1/assets/media/class.png)
     - Join Now Page Wireframe 
-    ![join](../Milestone_project_1/assets/images/join.png)
+    ![join](../Milestone_project_1/assets/media/join.png)
 
 ## Technologies Used
 
