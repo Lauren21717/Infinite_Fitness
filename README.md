@@ -1,4 +1,8 @@
-# Gym Website
+# Infinite Fitness Website
+
+## Table of contents
+
+
 
 ## User Exprience(UX)
 
@@ -250,7 +254,8 @@
         |Before|After|
         |---|---|
         |![join img before]()|![join img after]()|
-        
+
+
 - ## Credit
     - ###  Code
         - I implemented the off-canvas navigation bar code from [Bootstrap](http://getbootstrap.com/docs/5.3/components/navbar/)
