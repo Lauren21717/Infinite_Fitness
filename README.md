@@ -50,13 +50,13 @@
 
 - ### Wireframe
     - Home Page Wireframe 
-    ![home](assets/media/home.png)
+    ![home](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/home.png?raw=true)
     - About Page Wireframe 
-    ![about](assets/media/about.png)
+    ![about](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/about.png?raw=true)
     - Class Page Wireframe 
-    ![class](assets/media/class.png)
+    ![class](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/class.png?raw=true)
     - Join Now Page Wireframe 
-    ![join](assets/media/join.png)
+    ![join](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/join.png?raw=true)
 
 - ## Features
   - ### Nav Bar
@@ -132,19 +132,18 @@
 
 - ### Validator Testing
     - #### HTML
-        - [W3C Validator - index.html]()
+        - [W3C Validator - index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Flauren21717.github.io%2FMilestone_project_1%2F)
           ![W3C Results - index.html]()
-        - [W3C Validator - about.html]()
+        - [W3C Validator - about.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Flauren21717.github.io%2FMilestone_project_1%2Fabout.html)
           ![W3C Results - about.html]()
-        - [W3C Validator - class.html]()
+        - [W3C Validator - class.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Flauren21717.github.io%2FMilestone_project_1%2Fclass.html)
           ![W3C Results - class.html]()
-        - [W3C Validator - join.html]()
+        - [W3C Validator - join.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Flauren21717.github.io%2FMilestone_project_1%2Fjoin.html)
           ![W3C Results - join.html]()
-        - [W3C Validator - confirmation.html]()
-          ![W3C Results - confirmation.html]()
+
     - #### CSS
-        - [Jigsaw Validator - CSS]()
-          ![Jigsaw Result - CSS]()
+        - [W3C Validator - CSS](https://jigsaw.w3.org/css-validator/validator)
+          ![W3C Result - CSS]()
 
 - ### Google Developer Tools Lighthouse
     - #### Home
