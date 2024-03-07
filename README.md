@@ -62,49 +62,49 @@
   - ### Nav Bar
     |||
     |-|-|
-    |The gym's name, linking to the home page.|![Gym name]()|
-    |Offer navigation links and the site's title for the Home, About, Classes, and Join Now pages.|![Navbar]()|
-    |Activate the Home to indicate the current page the user is viewing.|![Home active]()|
-    |Display the menu icon on tablet and mobile devices.|![Menu Icon]()|
+    |The gym's name, linking to the home page.|![Gym name](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/Gym%20name.png?raw=true)|
+    |Offer navigation links and the site's title for the Home, About, Classes, and Join Now pages.|![Navbar](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/navbar.png?raw=true)|
+    |Activate the Home to indicate the current page the user is viewing.|![Home active](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/Home%20active.png?raw=true)|
+    |Display the menu icon on tablet and mobile devices.|![Menu Icon](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/Menu%20Icon.png?raw=true)|
 
   - ### Footer
     |||
     |-|-|
-    |The "About Us" text is displayed in the footer.|![Footer About Text]()|
-    |Provide navigation links and the site's title for the Home, About, Classes, and Join Now pages.|![Footer Nav links]()|
-    |Includes links to social media platforms.|![Footer social links]()|
+    |The "About Us" text is displayed in the footer.|![Footer About Text](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/Footer%20About%20Text.png?raw=true)|
+    |Provide navigation links and the site's title for the Home, About, Classes, and Join Now pages.|![Footer Nav links](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/Footer%20Nav%20links.png?raw=true)|
+    |Includes links to social media platforms.|![Footer social links](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/Footer%20social%20links.png?raw=true)|
     
   - ### Home
     |||
     |-|-|
-    |The callout section displays an introduction and promotion text, accompanied by a button linking to the "Join Now" page.|![Callout out]()|
-    |Highlight the advantages and characteristics of our gym.|![Features]()|
-    |Motivational carousel images.|![Carousel]()|
-    |Embeds a map to showcase the gym's location.|![Google Map]()|
-    |Member photos and reviews.|![Members]()|
+    |The callout section displays an introduction and promotion text, accompanied by a button linking to the "Join Now" page.|![Callout out](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/Carousel.png?raw=true)|
+    |Highlight the advantages and characteristics of our gym.|![Features](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/Features.png?raw=true)|
+    |Motivational carousel images.|![Carousel](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/Carousel%20copy.png?raw=true)|
+    |Embeds a map to showcase the gym's location.|![Google Map](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/Google%20Map.png?raw=true)|
+    |Member photos and reviews.|![Members](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/Members.png?raw=true)|
 
   - ### About
     |||
     |-|-|
-    |Activate the About to indicate the current page the user is viewing.|![About active]()|
-    |Includes details about the gym.|![About Page]()|
-    |Showcases our facilities.|![Our Facilities]()|
+    |Activate the About to indicate the current page the user is viewing.|![About active](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/About%20active.png?raw=true)|
+    |Includes details about the gym.|![About Page](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/About%20Page.png?raw=true)|
+    |Showcases our facilities.|![Our Facilities](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/Our%20Facilities.png?raw=true)|
 
   - ### Class
     |||
     |-|-|
-    |Activate the Class to indicate the current page the user is viewing.|![Class active]()|
-    |Description of gym classes.|![Class Page]()|
-    |Display schedules for Cardio, Group Training, Yoga, and Equipment.|![Class schedules]()|
-    |Highlights the benefits of our three membership tiers.|![Membership]()|
+    |Activate the Class to indicate the current page the user is viewing.|![Class active](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/Class%20active.png?raw=true)|
+    |Description of gym classes.|![Class Description](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/Class%20Description.png?raw=true)|
+    |Display schedules for Cardio, Group Training, Yoga, and Equipment.|![Class schedules](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/Class%20schedules.png?raw=true)|
+    |Highlights the benefits of our three membership tiers.|![Membership](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/Membership.png?raw=true)|
     
 
   - ### Join Now
     |||
     |-|-|
-    |Activate the Join Now to indicate the current page the user is viewing.|![Join Now]()|
-    |Includes a form for users to enter their name, email, phone number, gender, and message. Users can register for the free trial and leave a message.|![Form]()|
-    |The submit button links to the confirmation page, where users can view confirmation texts.|![confirmation page]()|
+    |Activate the Join Now to indicate the current page the user is viewing.|![Join Now](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/Join%20Now%20active.png?raw=true)|
+    |Includes a form for users to enter their name, email, phone number, gender, and message. Users can register for the free trial and leave a message.|![Form](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/Form.png?raw=true)|
+    |The submit button links to the confirmation page, where users can view confirmation texts.|![confirmation page](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/confirmation%20page.png?raw=true)|
     
 - ## Technologies Used
 
@@ -133,17 +133,17 @@
 - ### Validator Testing
     - #### HTML
         - [W3C Validator - index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Flauren21717.github.io%2FMilestone_project_1%2F)
-          ![W3C Results - index.html]()
+          ![W3C Results - index.html](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/W3C%20Results%20-%20index.png?raw=true)
         - [W3C Validator - about.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Flauren21717.github.io%2FMilestone_project_1%2Fabout.html)
-          ![W3C Results - about.html]()
+          ![W3C Results - about.html](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/W3C%20Validator%20-%20about.png?raw=true)
         - [W3C Validator - class.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Flauren21717.github.io%2FMilestone_project_1%2Fclass.html)
-          ![W3C Results - class.html]()
+          ![W3C Results - class.html](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/W3C%20Validator%20-%20class.png?raw=true)
         - [W3C Validator - join.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Flauren21717.github.io%2FMilestone_project_1%2Fjoin.html)
-          ![W3C Results - join.html]()
+          ![W3C Results - join.html](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/W3C%20Validator%20-%20join.png?raw=true)
 
     - #### CSS
         - [W3C Validator - CSS](https://jigsaw.w3.org/css-validator/validator)
-          ![W3C Result - CSS]()
+          ![W3C Result - CSS](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/W3C%20Validator%20-%20CSS.png?raw=true)
 
 - ### Google Developer Tools Lighthouse
     - #### Home
@@ -244,15 +244,15 @@
       - ### About
         |Before|After|
         |---|---|
-        |![about img before]()|![about img after]()|
+        |![about img before](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/about-img-before.png?raw=true)|![about img after](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/about-img-after.png?raw=true)|
       - ### Class
         |Before|After|
         |---|---|
-        |![Class img before]()|![Class img after]()|
+        |![Class img before](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/class-img-before.png?raw=true)|![Class img after](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/class-img-after.png?raw=true)|
       - ### Join Now
         |Before|After|
         |---|---|
-        |![join img before]()|![join img after]()|
+        |![join img before](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/join-img-before.png?raw=true)|![join img after](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/join-img-after.png?raw=true)|
 
 
 - ## Credit

@@ -159,13 +159,17 @@ footer {
 
 .callout-position {
   margin-top: 7%;
-  display: ruby;
 }
 
 
 .callout {
   background-color: rgba(249, 249, 249, 0.8);
   width: 80%;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 10%;
+  right: 10%;
 }
 
 .callout-header {
