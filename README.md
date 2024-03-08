@@ -162,22 +162,16 @@
             |![Location-lh-before](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/Location-lh-before.png?raw=true)|![Location-lh-after](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/Location-lh-after.png?raw=true)|
 
       3. The final outcome
-      ![home-lighthouse-after](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/home-lighthouse-after.png?raw=true)
+      ![home-lighthouse-after](https://github.com/Lauren21717/Infinite_Fitness/blob/main/assets/media/home-lighthouse-after.png?raw=true)
 
 
     - #### About
-      1. Outcome of the audit
-      ![about-lighthouse-before](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/about-lighthouse-before.png?raw=true)
-
-      2. Solution applied
-        - 
+      ![about-lighthouse-after](https://github.com/Lauren21717/Infinite_Fitness/blob/main/assets/media/about-lighthouse-after.png?raw=true)
 
     - #### Class
-      1. Outcome of the audit
+
       ![class-lighthouse-before](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/class-lighthouse-before.png?raw=true)
-      
-      2. Solution applied
-        - 
+
 
     - #### Join Now
 
@@ -256,7 +250,7 @@
             |![home-callout-bg-before](https://github.com/Lauren21717/Infinite_Fitness/blob/main/assets/media/home-callout-bg-before.png?raw=true)|![home-callout-bg-after](https://github.com/Lauren21717/Infinite_Fitness/blob/main/assets/media/home-callout-bg-after.png?raw=true)|
 
             |Device tested|Site responsive >= 700px|Site responsive <600px|Renders as expected|
-            | ---- | ---- | ---- |
+            |-|-|-|
             |Smartphones|N/A|Good|Good|
             |Tablets|Good|N/A|Good|
             |Laptops|Good|N/A|Good|
@@ -357,7 +351,7 @@
         - The callout code is from the lesson titled "Updating the Callout" on [Code Institute's](https://codeinstitute.net/full-stack-software-development-diploma/?utm_term=code%20institute&utm_campaign=CI+-+UK+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=1578649861&hsa_grp=62188641240&hsa_ad=635720257674&hsa_src=g&hsa_tgt=kwd-319867646331&hsa_kw=code%20institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gbraid=0AAAAADnKut8X7dWnPjX2BFo_L9i_jjhPu&gclid=CjwKCAiA29auBhBxEiwAnKcSqux1aKPppa2HXA2CJkkSAp244QIqf9QPYGK24XywOxpaX1ZpQLKPRRoCuqEQAvD_BwE) Bootstrap course.
         - The button code has been sourced from the Bootstrap lesson titled "Updating the Callout" on [Code Institute's](https://codeinstitute.net/full-stack-software-development-diploma/?utm_term=code%20institute&utm_campaign=CI+-+UK+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=1578649861&hsa_grp=62188641240&hsa_ad=635720257674&hsa_src=g&hsa_tgt=kwd-319867646331&hsa_kw=code%20institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gbraid=0AAAAADnKut8X7dWnPjX2BFo_L9i_jjhPu&gclid=CjwKCAiA29auBhBxEiwAnKcSqux1aKPppa2HXA2CJkkSAp244QIqf9QPYGK24XywOxpaX1ZpQLKPRRoCuqEQAvD_BwE) course, with slight modifications to suit the project requirements.
     - ### Content
-        -The content has been generated using [ChatGPT 3.5](https://chat.openai.com/).
+        - The content has been generated using [ChatGPT 3.5](https://chat.openai.com/).
     - ### Media
         - [Google-OUR TOP 5 INSPIRING FITNESSGIRL TO FOLLOW - KADALYS](https://images.app.goo.gl/iZ5YgmDP15RrJr7E9)
         - [Google-Supplements for fitness-Stay Trained](https://images.app.goo.gl/CGx9NpcYYfGRJXf2A)
