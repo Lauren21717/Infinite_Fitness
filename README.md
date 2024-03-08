@@ -1,7 +1,5 @@
 # Infinite Fitness Website
 
-## Table of contents
-
 
 
 ## User Exprience(UX)
@@ -131,6 +129,7 @@
 - ## Testing
 
 - ### Validator Testing
+  
     - #### HTML
         - [W3C Validator - index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Flauren21717.github.io%2FMilestone_project_1%2F)
           ![W3C Results - index.html](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/W3C%20Results%20-%20index.png?raw=true)
@@ -146,7 +145,9 @@
           ![W3C Result - CSS](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/W3C%20Validator%20-%20CSS.png?raw=true)
 
 - ### Google Developer Tools Lighthouse
+   
     - #### Home
+    
       1. Outcome of the audit
       ![home-lighthouse-before](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/home-lighthouse-before.png?raw=true)
 
@@ -184,24 +185,31 @@
 
 
 - ### Responsiveness
+   
     - Screenshots of responsive design breakpoints for various devices.
     - Viewport - Desktop: 1600x992px / Laptop: 1280x802px / Tablet: 768x1024px / Mobile: 320x480px.
  
-      ![Responsive Screenshots - Home]()
-      ![Responsive Screenshots - About]()
-      ![Responsive Screenshots - Class]()
-      ![Responsive Screenshots - Join Now]()
+      ![Responsive Screenshots - Home](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/images/Responsive%20Screenshots%20-%20Home.png?raw=true)
+      ![Responsive Screenshots - About](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/Responsive%20Screenshots%20-%20About.png?raw=true)
+      ![Responsive Screenshots - Class](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/Responsive%20Screenshots%20-%20Class.png?raw=true)
+      ![Responsive Screenshots - Join Now](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/Responsive%20Screenshots%20-%20Join%20Now.png?raw=true)
 
 - ## Manual Testing
+    
     - Manual testing conducted on the page include:
+       
         - ### Navigation Testing
             - Ensure all navigation links and menus function correctly and navigate to the intended page.
+       
         - ### Form Testing
             - Test the forms to ensure they submit data correctly and display appropriate validation messages for any errors.
+        
         - ### Content Testing
             - Review all text content, images, and multimedia elements to ensure accuracy, relevance, and proper formatting.
+       
         - ### Functionality Testing
             - Test all interactive elements such as buttons, dropdowns, sliders, and accordions to ensure they perform their intended functions without errors.
+        
         - ### Cross-Browser Testing
             - Verify the compatibility of the website across different web browsers (e.g., Chrome, Firefox, Safari) to ensure consistent behavior and appearance.
 
@@ -246,7 +254,9 @@
 - ### 
 
 - ### Bugs Discovered
+ 
     -  I checked the code by [HTML Validator](https://validator.w3.org/) and fixed some warning and error.
+ 
        - #### index.html
            1. Fixed Warning: Section lacks heading
               - Resolved the warning by replacing the <section> tag with a <div> tag for the container without a heading.
@@ -262,6 +272,7 @@
               - Fixed the warning by replacing the `<section>` tag with a `<div>` tag for the container without a heading.
               - From: `<section class="carousel-container">`
                 To: `<div class="carousel-container">`
+ 
      - #### about.html
           1. Warning - Section lacks heading
               - Addressed the warning by replacing `<section class="about-header">` with `<div class="about-header">`.
@@ -271,6 +282,7 @@
               - Removed the stray `</div>` tag at line 124 to resolve the error
           3. Stray end tag `</div>`
               - Deleted the unnecessary `</div>` tag at line 127 to fix the error.
+ 
     - #### class.html
          1. Warning - Section lacks heading
               - Corrected the warning by changing `<section class="about-header">` to `<div class="about-header">`.
@@ -278,6 +290,7 @@
                 To: `<div class="about-header">`
          2. Error - Stray end tag `</section>`
               - Removed the unnecessary `</section>` tag at line 137 to resolve the error.
+ 
     - #### join.html
          1. Error - Missing DOCTYPE
               - Rectified the error by adding `<!DOCTYPE html>` at the beginning of the document.
@@ -290,6 +303,7 @@
                 To: `<div class="join-us-header">`
           3. Error - Stray end tag `</label>`
               - Resolved the error by removing the unnecessary `</label>` tag at line 112.
+  
     - #### confirmation.html
          1. Error - Missing DOCTYPE
               - Rectified the error by adding `<!DOCTYPE html>` at the beginning of the document.
@@ -300,6 +314,7 @@
               - CCorrected the warning by changing `<section class="confirmation-header">` to `<div class="confirmation-header">`.
               - From: `<section class="confirmation-header">`
                 To: `<div class="confirmation-header">`
+   
     - #### CSS
        - I use the CSS Validator and I founds no error and bugs.           
 
@@ -310,10 +325,12 @@
         |Before|After|
         |---|---|
         |![about img before](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/about-img-before.png?raw=true)|![about img after](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/about-img-after.png?raw=true)|
-      - ### Class
+     
+     - ### Class
         |Before|After|
         |---|---|
         |![Class img before](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/class-img-before.png?raw=true)|![Class img after](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/class-img-after.png?raw=true)|
+    
       - ### Join Now
         |Before|After|
         |---|---|
@@ -321,6 +338,7 @@
 
 
 - ## Credit
+   
     - ###  Code
         - I implemented the off-canvas navigation bar code from [Bootstrap](http://getbootstrap.com/docs/5.3/components/navbar/)
         - [Bootstrap autoplaying carousels](https://getbootstrap.com/docs/5.3/components/carousel/#autoplaying-carousels) for the carousel slider.
@@ -330,7 +348,65 @@
     - ### Content
         -The content has been generated using [ChatGPT 3.5](https://chat.openai.com/).
     - ### Media
-        
-- ## Deployment
+        - [Google-OUR TOP 5 INSPIRING FITNESSGIRL TO FOLLOW - KADALYS](https://images.app.goo.gl/iZ5YgmDP15RrJr7E9)
+        - [Google-Supplements for fitness-Stay Trained](https://images.app.goo.gl/CGx9NpcYYfGRJXf2A)
+        - [Google- Group class](https://images.app.goo.gl/Z1MUwVGP9BaBKQp69 )
+        - [Google- BeZu Fitness Studio](https://images.app.goo.gl/Mwsg1q2JbkMFB1zi6)
+        - [Google- 12 Types of Yoga Explained: How to Find Your Style - PureWow](https://images.app.goo.gl/Vb4Z9LPoGMurAh5u8)
+        - [Google- Crossfit](https://images.app.goo.gl/qSxp5LtGP6abwi2D7)
+        - [Google- Principle of Progression in Weight Training & Conditioning](https://images.app.goo.gl/czdHxammcN2qPLgQ8)
+        - [Google- photo for member](https://images.app.goo.gl/fqVkVnC8ncBkyM586)
+        - [Google- photo for member](https://images.app.goo.gl/jTfHVCmhX1ek4FFf8)
+        - [Google- Fitness – Recreation and sports](https://images.app.goo.gl/njwxp5DoCrWp1Yzr9)
+        - [Google- 12 week gym workout plan: cardio & strength training - Women's Fitness](https://images.app.goo.gl/HcfCJ7Drhsq7VhbLA )
+        - [Google- Centr | Fitness App & Wellness Program Inspired by Chris Hemsworth](https://images.app.goo.gl/HuhX1bJ6emicRJZUA )
+        - [Google- Intermittent Fasting for Morning Workouts - Exercise and Fasting](https://images.app.goo.gl/3vpuiWMznj4fdpxR7 )
+        - [Google- Guide to starting your own health and fitness journey - AZ Big Media](https://images.app.goo.gl/G3opTZ5NfhXN9s9JA )
+        - [Google- Zap Fitness | 24-Hour Gyms](https://images.app.goo.gl/1AP1V22DpHNkZP2NA )
+        - [Google- Home - UQ Sport : UQ Sport](https://images.app.goo.gl/zm8MMFCsWawDQCCy7 )
+        - [Google- How to Get Your Gym Motivation Back](https://images.app.goo.gl/phfqeT1e3e56a3EY6 )
+        - [Google- Gym | Sport | Newcastle University](https://images.app.goo.gl/rDF8TUqmFL77D7Nh9)
+        - [Google- 25-Minute HIIT Bike Workout: Get Fitter Faster | Anytime Fitness](https://images.app.goo.gl/jNfDvTXYNLkS76Bh8)
+        - [Google- Yoga group class](https://images.app.goo.gl/Eb2oqUzEiJLRUvXaA)
+        - [Google- Group Fitness: CrossFit | Set Physical Therapy](https://images.app.goo.gl/YMfKdkTY2ifg9XFR8)
+        - [Google- 5 (Online) Group Fitness Class Benefits | Lafayette Family YMCA](https://images.app.goo.gl/WGzTkHTatVwU2p1a6)
+        - [Google- Personal Training Benefits | Affordable Personal Training](https://images.app.goo.gl/ftEN8a9ie1uo1a6B7)
+        - [Google- Workout Banner Images](https://images.app.goo.gl/gd3h1XZKHotDqpXz8)
+    - ### Icons
+        - [FontAwesome](https://fontawesome.com/)
+    - ### Useful Links
+        - [jeffdruid-README Reference](https://github.com/jeffdruid/fitzgeralds-menu?tab=readme-ov-file#introduction)
 
-- ### How to run this project locally
+- ## Deployment
+    - ### Cloning and Forking
+     
+      - #### Fork
+        1. Visit the repository located at [Lauren21717/Infinite_Fitness](https://github.com/Lauren21717/Infinite_Fitness) on GitHub.com.
+        2. Select the "Fork" button situated at the top-right corner of the page.
+        3. The default naming convention for forks mirrors that of their parent repositories. However, you have the option to customize the fork's name to enhance its distinctiveness.
+        4. Add a description to your fork.
+        5. After selecting "Create fork," you will be redirected to your newly created forked repository.
+      
+      - #### Clone
+        1. Above the list of files, click on the button labeled 'Code'.
+        2. Copy the URL for the repository.
+        3. Open Terminal and navigate to the directory where you want to clone the repository.
+        4. Type `git clone`, followed by the URL of the repository you want to clone, and press Enter.
+        
+- #### How to run this project locally
+    1. Sign up to [Gitpod](https://gitpod.io/).
+    2. Download the browser extension of Gitpod.
+    3. On GitHub.com, go to the [Lauren21717/Infinite_Fitness](https://github.com/Lauren21717/Infinite_Fitness) repository.
+    4. Click on the "GitPod" button located above the list of files in the repository on GitHub. This will open the GitPod workspace using the repository.
+
+- #### How to run this project remotely
+   
+    - The website has been deployed to GitHub Pages. If you have forked or cloned the repository, follow these steps to deploy:
+   
+      1. Navigate to your repository on GitHub.
+      2. Access the "Settings" tab located at the top of your repository's page.
+      3. On the left sidebar, select the "Pages" tab.
+      4. Under the "Build and Deployment" section, choose "main" from the source drop-down menu, then click "Save".
+      5. After completing the previous step, you will see a green success message with a link to your deployed website. This message confirms that your site is now published at the specified URL.
+    
+    You can access the live link here: [Infinite Fitness](https://lauren21717.github.io/Milestone_project_1/)
