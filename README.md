@@ -156,6 +156,7 @@
           - I change all image in home page from `jpeg` to `webp`.
         - Background and foreground colors do not have a sufficient contrast ratio.
           - |Before|After|
+            |-|-|
             |![btn-lg-before](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/btn-lg-before.png?raw=true)|![btn-lg-after](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/btn-lg-after.png?raw=true)|
             |![feature-lh-before](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/feature-lh-before.png?raw=true)|![feature-lh-after](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/feature-lh-after.png?raw=true)|
             |![Location-lh-before](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/Location-lh-before.png?raw=true)|![Location-lh-after](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/Location-lh-after.png?raw=true)|
@@ -222,10 +223,12 @@
 
               2. Utilized browser developer tools to inspect the CSS properties affecting the callout section's position.
               3. Adjusted the CSS styles to ensure consistent positioning across all browsers.
+             
               |Before|After|
-              | --- | --- |
+              |-|-|
               |![callout-css-before](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/callout-css-before.png?raw=true)|![callout-css-after](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/callout-css-after.png?raw=true)|
               4. Tested the website on multiple browsers and verified that the callout section now displays consistently. 
+              
               | Chrome-Version 122.0.6261.111 |Firefox-Version 123.0.1|Safari-Version 17.3.1|
               | -------- | -------- | -------- |
               |![Chrome-testing-after](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/chrome-testing-after.png?raw=true)|![Firefox-testing-after](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/firefox-testing-after.png?raw=true)|![Safari-testing-after](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/safari-testing-after.png?raw=true)|
@@ -243,7 +246,14 @@
 
             |Before|After|
             | ---- | ---- |
-            |![home-callout-before]()|![home-callout-after]()|
+            |![home-callout-before](https://github.com/Lauren21717/Infinite_Fitness/blob/main/assets/media/home-callout-before.png?raw=true)|![home-callout-after](https://github.com/Lauren21717/Infinite_Fitness/blob/main/assets/media/home-callout-after.png?raw=true)|
+
+            - I resolved the issue by removing the font-size style rule from the div with the class ".display-4", and in the same media queries, I also eliminated the set height from the div with the class ".home-background".
+
+            |Before|After|
+            | ----- | ----- |
+            |![home-callout-rm-dp4-before](https://github.com/Lauren21717/Infinite_Fitness/blob/main/assets/media/home-callout-rm-dp4-before.png?raw=true)|![home-callout-rm-dp4-after](https://github.com/Lauren21717/Infinite_Fitness/blob/main/assets/media/home-callout-rm-dp4-after.png?raw=true)|
+            |![home-callout-bg-before](https://github.com/Lauren21717/Infinite_Fitness/blob/main/assets/media/home-callout-bg-before.png?raw=true)|![home-callout-bg-after](https://github.com/Lauren21717/Infinite_Fitness/blob/main/assets/media/home-callout-bg-after.png?raw=true)|
 
             |Device tested|Site responsive >= 700px|Site responsive <600px|Renders as expected|
             | ---- | ---- | ---- |
@@ -320,7 +330,7 @@
 
 - ## UI Improvements
   - Adjust the `border-radius` of the `pic` on the about, class, and join now pages to maintain consistency and enhance the user experience.
-    
+
       - ### About
         |Before|After|
         |---|---|
@@ -336,6 +346,7 @@
         |---|---|
         |![join img before](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/join-img-before.png?raw=true)|![join img after](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/join-img-after.png?raw=true)|
 
+  - Adjusting the top padding of the callout section on the homepage.
 
 - ## Credit
    
