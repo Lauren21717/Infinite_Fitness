@@ -172,6 +172,7 @@ footer {
   right: 10%;
 }
 
+
 .callout-header {
   color: #494848;
   font-weight: bolder;
@@ -183,15 +184,6 @@ footer {
   color: #8d8607;
 }
 
-/*-credit: .opaque-overlay code come from the lesson Bootstrap: Updating the Callout--*/
-.opaque-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-}
 
 .my-3 {
   z-index: 1;
@@ -207,7 +199,6 @@ footer {
 }
 
 .btn--red {
-  color: rgb(227, 227, 227);
   background-color: #EE4328;
   border-color: #EE4328;
 }

@@ -147,7 +147,16 @@
 
 - ### Google Developer Tools Lighthouse
     - #### Home
-      ![Home lighthouse result]()
+      1. Outcome of the audit
+      ![home-lighthouse-before]()
+      
+      2. Solution applied
+        - Serve images in next-gen formats
+        ![images-in-next-gen-formats]()
+        I change all image in home page from `jpeg` to `webp`.
+        - Eliminate render-blocking resources
+        ![Eliminate render-blocking resources]()
+
     - #### About
       ![About lighthouse result]()
     - #### Class
@@ -157,7 +166,7 @@
 
 - ### Responsiveness
     - Screenshots of responsive design breakpoints for various devices.
-    - Viewport - Desktop: # / Laptop: # / Tablet: # / Mobile: #.
+    - Viewport - Desktop: 1600x992px / Laptop: 1280x802px / Tablet: 768x1024px / Mobile: 320x480px.
  
       ![Responsive Screenshots - Home]()
       ![Responsive Screenshots - About]()
@@ -166,18 +175,55 @@
 
 - ## Manual Testing
     - Manual testing conducted on the page include:
-        - #### Navigation Testing
+        - ### Navigation Testing
             - Ensure all navigation links and menus function correctly and navigate to the intended page.
-        - #### Form Testing
+        - ### Form Testing
             - Test the forms to ensure they submit data correctly and display appropriate validation messages for any errors.
-        - #### Content Testing
+        - ### Content Testing
             - Review all text content, images, and multimedia elements to ensure accuracy, relevance, and proper formatting.
-        - #### Functionality Testing
+        - ### Functionality Testing
             - Test all interactive elements such as buttons, dropdowns, sliders, and accordions to ensure they perform their intended functions without errors.
-        - #### Cross-Browser Testing
+        - ### Cross-Browser Testing
             - Verify the compatibility of the website across different web browsers (e.g., Chrome, Firefox, Safari) to ensure consistent behavior and appearance.
-        - #### Compatibility Testing
-            -Test the website on different devices (e.g., desktops, laptops, tablets, smartphones) and operating systems (e.g., Windows, macOS, iOS, Android) to ensure compatibility and functionality across various platforms.
+
+            - #### Issue
+              1. The position of the callout section appeared differently across different web browsers, leading to inconsistent display.
+            
+              | Chrome-Version 122.0.6261.111 |Firefox-Version 123.0.1|Safari-Version 17.3.1|
+              | -------- | -------- | -------- |
+              |![Chrome-testing-before]()|![Firefox-testing-before]()|![Safari-testing-before]()|
+
+              2. Utilized browser developer tools to inspect the CSS properties affecting the callout section's position.
+              3. Adjusted the CSS styles to ensure consistent positioning across all browsers.
+              |Before|After|
+              | --- | --- |
+              |![callout-css-before]()|![callout-css-after]()|
+              4. Tested the website on multiple browsers and verified that the callout section now displays consistently. 
+              | Chrome-Version 122.0.6261.111 |Firefox-Version 123.0.1|Safari-Version 17.3.1|
+              | -------- | -------- | -------- |
+              |![Chrome-testing-after]()|![Firefox-testing-after]()|![Safari-testing-after]()|
+
+            |Browser tested|Intended appearance|Intended resposienss|
+            | --- | --- | --- |
+            |Chrome|good|good|
+            |Firefox|good|good|
+            |Safari|good|good|
+
+        - ### Compatibility Testing
+            - Test the website on different devices (e.g., desktops, laptops, tablets, smartphones) and operating systems (e.g., Windows, macOS, iOS, Android) to ensure compatibility and functionality across various platforms.
+            
+            - The Home page appears perfectly on desktops, laptops, and tablets. However, on smartphones, the callout section covers the entire page.
+
+            |Before|After|
+            | ---- | ---- |
+            |![home-callout-before]()|![home-callout-after]()|
+
+            |Device tested|Site responsive >= 700px|Site responsive <600px|Renders as expected|
+            | ---- | ---- | ---- |
+            |Smartphones|N/A|Good|Good|
+            |Tablets|Good|N/A|Good|
+            |Laptops|Good|N/A|Good|
+            |Desktops|Good|N/A|Good|
 - ### 
 
 - ### Bugs Discovered
