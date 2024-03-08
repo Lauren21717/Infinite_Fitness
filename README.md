@@ -1,6 +1,6 @@
 # Infinite Fitness Website
 
-
+![Mockup](https://github.com/Lauren21717/Infinite_Fitness/blob/main/assets/images/Responsive%20Screenshots%20-%20Home.png?raw=true)
 
 ## User Exprience(UX)
 
