@@ -250,12 +250,12 @@
             |![home-callout-bg-before](https://github.com/Lauren21717/Infinite_Fitness/blob/main/assets/media/home-callout-bg-before.png?raw=true)|![home-callout-bg-after](https://github.com/Lauren21717/Infinite_Fitness/blob/main/assets/media/home-callout-bg-after.png?raw=true)|
 
             |Device tested|Site responsive >= 700px|Site responsive <600px|Renders as expected|
-            |-|-|-|
-            |Smartphones|N/A|Good|Good|
+            | --- | --- | --- | --- |
+            |Smartphones |N/A|Good|Good|
             |Tablets|Good|N/A|Good|
             |Laptops|Good|N/A|Good|
             |Desktops|Good|N/A|Good|
-- ### 
+
 
 - ### Bugs Discovered
  
