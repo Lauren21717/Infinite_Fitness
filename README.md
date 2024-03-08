@@ -149,20 +149,40 @@
     - #### Home
       1. Outcome of the audit
       ![home-lighthouse-before]()
-      
+
       2. Solution applied
         - Serve images in next-gen formats
         ![images-in-next-gen-formats]()
         I change all image in home page from `jpeg` to `webp`.
-        - Eliminate render-blocking resources
-        ![Eliminate render-blocking resources]()
+        - Background and foreground colors do not have a sufficient contrast ratio.
+          - |Before|After|
+            |![btn-lg-before]()|![btn-lg-after]()|
+            |![feature-lh-before]()|![feature-lh-after]()|
+            |![Location-lh-before]()|![Location-lh-after]()|
+
+      3. The final outcome
+      ![home-lighthouse-after]()
+
 
     - #### About
-      ![About lighthouse result]()
+      1. Outcome of the audit
+      ![about-lighthouse-before]()
+
+      2. Solution applied
+        - 
+
     - #### Class
-      ![Class lighthouse result]()
+      1. Outcome of the audit
+      ![class-lighthouse-before]()
+      
+      2. Solution applied
+        - 
+
     - #### Join Now
-      ![Join Now lighthouse result]()
+
+      ![join-now-lighthouse]()
+      
+
 
 - ### Responsiveness
     - Screenshots of responsive design breakpoints for various devices.

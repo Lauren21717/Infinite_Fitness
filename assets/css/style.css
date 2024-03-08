@@ -284,7 +284,7 @@ footer {
 .about-header {
   height: 50vh;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(232, 245, 133, 0.1)), url(../images/background11.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(232, 245, 133, 0.1)), url(../images/background11.webp);
   background-position: center;
   background-size: cover;
   text-align: center;
