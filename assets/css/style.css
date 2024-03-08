@@ -199,8 +199,8 @@ footer {
 }
 
 .btn--red {
-  background-color: #EE4328;
-  border-color: #EE4328;
+  background-color: #991E0F;
+  border-color: #991E0F;
 }
 
 .btn--red:hover,
@@ -224,7 +224,7 @@ footer {
 .feature i {
   display: block;
   text-align: center;
-  color: #b67b0d;
+  color: #5C3F0A;
 }
 
 
@@ -271,7 +271,7 @@ footer {
 }
 
 .members-container h2 {
-  color: #c6a364;
+  color: #5C3F0A;
 }
 
 .d-flex {
