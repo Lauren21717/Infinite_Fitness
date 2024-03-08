@@ -148,39 +148,38 @@
 - ### Google Developer Tools Lighthouse
     - #### Home
       1. Outcome of the audit
-      ![home-lighthouse-before]()
+      ![home-lighthouse-before](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/home-lighthouse-before.png?raw=true)
 
       2. Solution applied
         - Serve images in next-gen formats
-        ![images-in-next-gen-formats]()
-        I change all image in home page from `jpeg` to `webp`.
+          - I change all image in home page from `jpeg` to `webp`.
         - Background and foreground colors do not have a sufficient contrast ratio.
           - |Before|After|
-            |![btn-lg-before]()|![btn-lg-after]()|
-            |![feature-lh-before]()|![feature-lh-after]()|
-            |![Location-lh-before]()|![Location-lh-after]()|
+            |![btn-lg-before](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/btn-lg-before.png?raw=true)|![btn-lg-after](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/btn-lg-after.png?raw=true)|
+            |![feature-lh-before](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/feature-lh-before.png?raw=true)|![feature-lh-after](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/feature-lh-after.png?raw=true)|
+            |![Location-lh-before](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/Location-lh-before.png?raw=true)|![Location-lh-after](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/Location-lh-after.png?raw=true)|
 
       3. The final outcome
-      ![home-lighthouse-after]()
+      ![home-lighthouse-after](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/home-lighthouse-after.png?raw=true)
 
 
     - #### About
       1. Outcome of the audit
-      ![about-lighthouse-before]()
+      ![about-lighthouse-before](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/about-lighthouse-before.png?raw=true)
 
       2. Solution applied
         - 
 
     - #### Class
       1. Outcome of the audit
-      ![class-lighthouse-before]()
+      ![class-lighthouse-before](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/class-lighthouse-before.png?raw=true)
       
       2. Solution applied
         - 
 
     - #### Join Now
 
-      ![join-now-lighthouse]()
+      ![join-now-lighthouse](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/join-now-lighthouse.png?raw=true)
       
 
 
@@ -211,17 +210,17 @@
             
               | Chrome-Version 122.0.6261.111 |Firefox-Version 123.0.1|Safari-Version 17.3.1|
               | -------- | -------- | -------- |
-              |![Chrome-testing-before]()|![Firefox-testing-before]()|![Safari-testing-before]()|
+              |![Chrome-testing-before](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/chrome-testing-before.png?raw=true)|![Firefox-testing-before](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/firefox-testing-before.png?raw=true)|![Safari-testing-before](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/safari-testing-before.png?raw=true)|
 
               2. Utilized browser developer tools to inspect the CSS properties affecting the callout section's position.
               3. Adjusted the CSS styles to ensure consistent positioning across all browsers.
               |Before|After|
               | --- | --- |
-              |![callout-css-before]()|![callout-css-after]()|
+              |![callout-css-before](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/callout-css-before.png?raw=true)|![callout-css-after](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/callout-css-after.png?raw=true)|
               4. Tested the website on multiple browsers and verified that the callout section now displays consistently. 
               | Chrome-Version 122.0.6261.111 |Firefox-Version 123.0.1|Safari-Version 17.3.1|
               | -------- | -------- | -------- |
-              |![Chrome-testing-after]()|![Firefox-testing-after]()|![Safari-testing-after]()|
+              |![Chrome-testing-after](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/chrome-testing-after.png?raw=true)|![Firefox-testing-after](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/firefox-testing-after.png?raw=true)|![Safari-testing-after](https://github.com/Lauren21717/Milestone_project_1/blob/main/assets/media/safari-testing-after.png?raw=true)|
 
             |Browser tested|Intended appearance|Intended resposienss|
             | --- | --- | --- |
