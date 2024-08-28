@@ -414,4 +414,4 @@
       4. Under the "Build and Deployment" section, choose "main" from the source drop-down menu, then click "Save".
       5. After completing the previous step, you will see a green success message with a link to your deployed website. This message confirms that your site is now published at the specified URL.
     
-    You can access the live link here: [Infinite Fitness](https://lauren21717.github.io/Milestone_project_1/)
+    You can access the live link here: [Infinite Fitness](https://lauren21717.github.io/Infinite_Fitness/)
